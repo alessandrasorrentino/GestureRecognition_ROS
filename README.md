@@ -42,4 +42,5 @@ Navigation: spqrel_planner
 Demo: hri_pnp
 ```
 and check off the box corresponding to Gestures
+
 4. Perform the desired gesture
