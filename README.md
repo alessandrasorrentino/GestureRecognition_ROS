@@ -25,7 +25,21 @@ $  cd catkin_ws
 $  source devel/setup.bash
 $  catkin_make
 ```
-2. Copy the files present in the folder $(CHAI3DYOURPROJECTPATH)/bin/Debug in the vrep folder.
-3. Connect the haptic device to the laptop and perform haptic diagnostic using the Diagnostic program. 
-4. Open vrep and load the scene. Check on the terminal that no errors are reported. 
-5. Run the scene. 
+2. Run the Stage simulation launcher
+```
+$  source <path_to>/hri_software/catkin_ws/devel/setup.bash
+$  roscd stage_environments/scripts
+$ ./start_simulation.py
+```
+3. In the Simulation Launcher GUI select
+```
+Map: DISB1
+Robot: diago  
+Pose: (default one)
+Number of robots: 1
+Localization: srrg_localizer
+Navigation: spqrel_planner
+Demo: hri_pnp
+```
+and check off the box corresponding to Gestures
+4. Perform the desired gesture
