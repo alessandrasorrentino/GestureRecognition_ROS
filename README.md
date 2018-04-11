@@ -16,8 +16,12 @@ Gesture recognition module that allows to command the the direction a simulated 
   d. Substitute the file visualization.py in $(CATKIN_WS)/src/tf-pose-estimation/script with the file stored here.
     
 # Running
-1. Build the solution 
-      $ lksfg;slfm
+1. Compile ROS packages 
+```
+$  cd catkin_ws
+$  source devel/setup.bash
+$  catkin_make
+```
 2. Copy the files present in the folder $(CHAI3DYOURPROJECTPATH)/bin/Debug in the vrep folder.
 3. Connect the haptic device to the laptop and perform haptic diagnostic using the Diagnostic program. 
 4. Open vrep and load the scene. Check on the terminal that no errors are reported. 
