@@ -11,8 +11,11 @@ Gesture recognition module that allows to command the the direction a simulated 
 
 # Installation
   a. Follow the installation online to install hri-software and tf-pose-estimation ROS in your catkin_ws. 
+  
   b. Substitute the file start_simulation.py in $(CATKIN_WS)/src/stage_environments/scripts with the file stored here.
+  
   c. Substitute the file demo_video.launch in $(CATKIN_WS)/src/tf-pose-estimation/launch with the file stored here.
+  
   d. Substitute the file visualization.py in $(CATKIN_WS)/src/tf-pose-estimation/script with the file stored here.
     
 # Running
